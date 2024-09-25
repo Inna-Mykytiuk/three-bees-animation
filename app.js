@@ -15,7 +15,7 @@ let bee;
 let mixer;
 const loader = new GLTFLoader();
 
-loader.load('/animated_bee.glb',
+loader.load('img/animated_bee.glb',
     function (gltf) {
         bee = gltf.scene;
         scene.add(bee);
