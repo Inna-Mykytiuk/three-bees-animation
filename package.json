@@ -1,7 +1,7 @@
 {
   "homepage": "https://Inna-Mykytiuk.github.io/three-bees-animation",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "cp index.html build/ && cp style.css build/ && cp app.js build/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
